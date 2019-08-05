@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF06DA2C22DCA0E200F29814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06DA2B22DCA0E200F29814 /* AppDelegate.swift */; };
+		AF06DA2E22DCA0E200F29814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06DA2D22DCA0E200F29814 /* SceneDelegate.swift */; };
+		AF06DA3022DCA0E200F29814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06DA2F22DCA0E200F29814 /* ViewController.swift */; };
+		AF06DA3322DCA0E200F29814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF06DA3122DCA0E200F29814 /* Main.storyboard */; };
+		AF06DA3522DCA0EC00F29814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF06DA3422DCA0EC00F29814 /* Assets.xcassets */; };
+		AF06DA3822DCA0EC00F29814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF06DA3622DCA0EC00F29814 /* LaunchScreen.storyboard */; };
+		AF06DA4022DCAC6E00F29814 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06DA3F22DCAC6E00F29814 /* Contacts.swift */; };
+		AF06DA4222DCAE7600F29814 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06DA4122DCAE7600F29814 /* ContactsTableViewCell.swift */; };
+		AF06DA4422DCB39E00F29814 /* KisiEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF06DA4322DCB39E00F29814 /* KisiEkleViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF06DA2822DCA0E200F29814 /* SaylafarArasıVeriAktarımı.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SaylafarArasıVeriAktarımı.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF06DA2B22DCA0E200F29814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF06DA2D22DCA0E200F29814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF06DA2F22DCA0E200F29814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF06DA3222DCA0E200F29814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF06DA3422DCA0EC00F29814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF06DA3722DCA0EC00F29814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF06DA3922DCA0EC00F29814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF06DA3F22DCAC6E00F29814 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		AF06DA4122DCAE7600F29814 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		AF06DA4322DCB39E00F29814 /* KisiEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisiEkleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF06DA2522DCA0E200F29814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF06DA1F22DCA0E100F29814 = {
+			isa = PBXGroup;
+			children = (
+				AF06DA2A22DCA0E200F29814 /* SaylafarArasıVeriAktarımı */,
+				AF06DA2922DCA0E200F29814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF06DA2922DCA0E200F29814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF06DA2822DCA0E200F29814 /* SaylafarArasıVeriAktarımı.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF06DA2A22DCA0E200F29814 /* SaylafarArasıVeriAktarımı */ = {
+			isa = PBXGroup;
+			children = (
+				AF06DA2B22DCA0E200F29814 /* AppDelegate.swift */,
+				AF06DA2D22DCA0E200F29814 /* SceneDelegate.swift */,
+				AF06DA2F22DCA0E200F29814 /* ViewController.swift */,
+				AF06DA4322DCB39E00F29814 /* KisiEkleViewController.swift */,
+				AF06DA4122DCAE7600F29814 /* ContactsTableViewCell.swift */,
+				AF06DA3F22DCAC6E00F29814 /* Contacts.swift */,
+				AF06DA3122DCA0E200F29814 /* Main.storyboard */,
+				AF06DA3422DCA0EC00F29814 /* Assets.xcassets */,
+				AF06DA3622DCA0EC00F29814 /* LaunchScreen.storyboard */,
+				AF06DA3922DCA0EC00F29814 /* Info.plist */,
+			);
+			path = "SaylafarArasıVeriAktarımı";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF06DA2722DCA0E200F29814 /* SaylafarArasıVeriAktarımı */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF06DA3C22DCA0EC00F29814 /* Build configuration list for PBXNativeTarget "SaylafarArasıVeriAktarımı" */;
+			buildPhases = (
+				AF06DA2422DCA0E200F29814 /* Sources */,
+				AF06DA2522DCA0E200F29814 /* Frameworks */,
+				AF06DA2622DCA0E200F29814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SaylafarArasıVeriAktarımı";
+			productName = "SaylafarArasıVeriAktarımı";
+			productReference = AF06DA2822DCA0E200F29814 /* SaylafarArasıVeriAktarımı.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF06DA2022DCA0E100F29814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Ufuk Köşker";
+				TargetAttributes = {
+					AF06DA2722DCA0E200F29814 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = AF06DA2322DCA0E200F29814 /* Build configuration list for PBXProject "SaylafarArasıVeriAktarımı" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF06DA1F22DCA0E100F29814;
+			productRefGroup = AF06DA2922DCA0E200F29814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF06DA2722DCA0E200F29814 /* SaylafarArasıVeriAktarımı */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF06DA2622DCA0E200F29814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF06DA3822DCA0EC00F29814 /* LaunchScreen.storyboard in Resources */,
+				AF06DA3522DCA0EC00F29814 /* Assets.xcassets in Resources */,
+				AF06DA3322DCA0E200F29814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF06DA2422DCA0E200F29814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF06DA4022DCAC6E00F29814 /* Contacts.swift in Sources */,
+				AF06DA4422DCB39E00F29814 /* KisiEkleViewController.swift in Sources */,
+				AF06DA3022DCA0E200F29814 /* ViewController.swift in Sources */,
+				AF06DA4222DCAE7600F29814 /* ContactsTableViewCell.swift in Sources */,
+				AF06DA2C22DCA0E200F29814 /* AppDelegate.swift in Sources */,
+				AF06DA2E22DCA0E200F29814 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF06DA3122DCA0E200F29814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF06DA3222DCA0E200F29814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF06DA3622DCA0EC00F29814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF06DA3722DCA0EC00F29814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF06DA3A22DCA0EC00F29814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF06DA3B22DCA0EC00F29814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF06DA3D22DCA0EC00F29814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63Y74HYCKH;
+				INFOPLIST_FILE = "SaylafarArasıVeriAktarımı/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ufukkosker.SaylafarAras-VeriAktar-m-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF06DA3E22DCA0EC00F29814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63Y74HYCKH;
+				INFOPLIST_FILE = "SaylafarArasıVeriAktarımı/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ufukkosker.SaylafarAras-VeriAktar-m-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF06DA2322DCA0E200F29814 /* Build configuration list for PBXProject "SaylafarArasıVeriAktarımı" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF06DA3A22DCA0EC00F29814 /* Debug */,
+				AF06DA3B22DCA0EC00F29814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF06DA3C22DCA0EC00F29814 /* Build configuration list for PBXNativeTarget "SaylafarArasıVeriAktarımı" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF06DA3D22DCA0EC00F29814 /* Debug */,
+				AF06DA3E22DCA0EC00F29814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF06DA2022DCA0E100F29814 /* Project object */;
+}
